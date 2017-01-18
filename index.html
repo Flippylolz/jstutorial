@@ -2,21 +2,19 @@
 <html>
 
 <head>
-	<title>To Do List</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/main.css">
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8">
 </head>
 
 <body>
-	<h1>To do list</h1>
-	<form id ="todoForm">
-		<input id="todoInput">
-		<button type="button" onclick="todoList">Button!</button>
-	</form>
-	<ol id="todoList">
-	</ol>
+    <h1>To do list</h1>
+    <input id="task"><button id="add">Add task</button>
+    <button id="clear">Clear</button>
+    <hr>
+    <div id="todos"></div>
 
-	<script src="main.js"></script>
+    <script src="todo.js"></script>
 </body>
-</html> 
+
+</html>
